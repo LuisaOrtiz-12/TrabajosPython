@@ -9,6 +9,5 @@ def rima(tex):
        else:
         print('No se encuentran palabras en el archivo')
             
-
 rima('an')
 
