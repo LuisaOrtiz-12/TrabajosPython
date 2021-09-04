@@ -1,7 +1,7 @@
 def lista(A,B):
  n = len(A)//2
  C = []
- for i in range(n):
+ for i in range(n+1):
    d = pow(A[i+1], 2)
    e = d * B[2*i]
    f = e + B[n+i]

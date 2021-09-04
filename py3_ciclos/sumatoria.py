@@ -1,7 +1,7 @@
 def sumatoria(A,B,C):
  n = len(A)
  acumulador = 0
- for i in range(n):
+ for i in range(n+1):
    d = A[i] * B[i]
    e = d + C[i]
    acumulador = acumulador + e
