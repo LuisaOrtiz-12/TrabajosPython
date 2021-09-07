@@ -1,5 +1,4 @@
 def sumatoria(A,B,C):
- i = -1
  n = len(A)
  acumulador = 0
  for i in range(n):
